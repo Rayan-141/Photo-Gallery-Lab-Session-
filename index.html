@@ -7,95 +7,159 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/2965/2965879.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <img src="https://st4.depositphotos.com/15827064/21675/v/450/depositphotos_216754106-stock-illustration-image-gallery-icon-symbol-premium.jpg" alt="Photo Gallery Logo" class="nav-logo">
+            <span>Photo Gallery</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
         <h1>Beautiful Moments Gallery</h1>
         <p class="subtitle">Capturing Life's Most Beautiful Moments</p>
     </header>
-    
-    <main class="gallery">
-        <div class="gallery-item">
-            <label for="img1">
-                <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80" alt="Nature Image">
-            </label>
+
+    <section id="gallery" class="section">
+        <h2 class="section-title">Our Gallery</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <label for="img1">
+                    <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80" alt="Nature Image">
+                </label>
+            </div>
+            <div class="gallery-item">
+                <label for="img2">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80" alt="City Image">
+                </label>
+            </div>
+            <div class="gallery-item">
+                <label for="img3">
+                    <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&q=80" alt="Architecture Image">
+                </label>
+            </div>
+            <div class="gallery-item">
+                <label for="img4">
+                    <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80" alt="Travel Image">
+                </label>
+            </div>
+            <div class="gallery-item">
+                <label for="img5">
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80" alt="Food Image">
+                </label>
+            </div>
+            <div class="gallery-item">
+                <label for="img6">
+                    <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?w=800&q=80" alt="Animals Image">
+                </label>
+            </div>
+            <div class="gallery-item">
+                <label for="img7">
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80" alt="Technology Image">
+                </label>
+            </div>
+            <div class="gallery-item">
+                <label for="img8">
+                    <img src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800&q=80" alt="Art Image">
+                </label>
+            </div>
+            <div class="gallery-item">
+                <label for="img9">
+                    <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80" alt="People Image">
+                </label>
+            </div>
+            <div class="gallery-item">
+                <label for="img10">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80" alt="Landscape Image">
+                </label>
+            </div>
+            <div class="gallery-item">
+                <label for="img11">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80" alt="Mountain Lake">
+                </label>
+            </div>
+            <div class="gallery-item">
+                <label for="img12">
+                    <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&q=80" alt="Forest Path">
+                </label>
+            </div>
+            <div class="gallery-item">
+                <label for="img13">
+                    <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=800&q=80" alt="Sunset Beach">
+                </label>
+            </div>
+            <div class="gallery-item">
+                <label for="img14">
+                    <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?w=800&q=80" alt="Mountain Range">
+                </label>
+            </div>
+            <div class="gallery-item">
+                <label for="img15">
+                    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80" alt="Coastal View">
+                </label>
+            </div>
+            <div class="gallery-item">
+                <label for="img16">
+                    <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800&q=80" alt="Mountain Valley">
+                </label>
+            </div>
         </div>
-        <div class="gallery-item">
-            <label for="img2">
-                <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80" alt="City Image">
-            </label>
+    </section>
+
+    <section id="about" class="section">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Our Story</h3>
+                <p>Welcome to Beautiful Moments Gallery, where we capture and share the most stunning moments from around the world. Our passion for photography drives us to showcase the beauty of nature, architecture, people, and life itself.</p>
+                <h3>Our Mission</h3>
+                <p>We strive to inspire and connect people through the power of visual storytelling. Each image in our gallery tells a unique story, capturing emotions, landscapes, and moments that make life extraordinary.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-item">
+                    <i class="fas fa-camera"></i>
+                    <h4>1000+</h4>
+                    <p>Photos</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-globe"></i>
+                    <h4>50+</h4>
+                    <p>Countries</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-users"></i>
+                    <h4>10k+</h4>
+                    <p>Visitors</p>
+                </div>
+            </div>
         </div>
-        <div class="gallery-item">
-            <label for="img3">
-                <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&q=80" alt="Architecture Image">
-            </label>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-content">
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
         </div>
-        <div class="gallery-item">
-            <label for="img4">
-                <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80" alt="Travel Image">
-            </label>
-        </div>
-        <div class="gallery-item">
-            <label for="img5">
-                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80" alt="Food Image">
-            </label>
-        </div>
-        <div class="gallery-item">
-            <label for="img6">
-                <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?w=800&q=80" alt="Animals Image">
-            </label>
-        </div>
-        <div class="gallery-item">
-            <label for="img7">
-                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80" alt="Technology Image">
-            </label>
-        </div>
-        <div class="gallery-item">
-            <label for="img8">
-                <img src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800&q=80" alt="Art Image">
-            </label>
-        </div>
-        <div class="gallery-item">
-            <label for="img9">
-                <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80" alt="People Image">
-            </label>
-        </div>
-        <div class="gallery-item">
-            <label for="img10">
-                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80" alt="Landscape Image">
-            </label>
-        </div>
-        <div class="gallery-item">
-            <label for="img11">
-                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80" alt="Mountain Lake">
-            </label>
-        </div>
-        <div class="gallery-item">
-            <label for="img12">
-                <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&q=80" alt="Forest Path">
-            </label>
-        </div>
-        <div class="gallery-item">
-            <label for="img13">
-                <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=800&q=80" alt="Sunset Beach">
-            </label>
-        </div>
-        <div class="gallery-item">
-            <label for="img14">
-                <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?w=800&q=80" alt="Mountain Range">
-            </label>
-        </div>
-        <div class="gallery-item">
-            <label for="img15">
-                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80" alt="Coastal View">
-            </label>
-        </div>
-        <div class="gallery-item">
-            <label for="img16">
-                <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800&q=80" alt="Mountain Valley">
-            </label>
-        </div>
-    </main>
+    </section>
 
     <!-- Lightbox -->
     <input type="checkbox" id="img1" class="lightbox-toggle">
